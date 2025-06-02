@@ -1,0 +1,23 @@
+# Ignorar archivos de simulación y síntesis
+*.vcd
+*.vvp
+*.out
+*.log
+*.dmp
+*.svf
+*.sdf
+*.backup
+
+# Ignorar directorios de herramientas EDA
+/obj_dir/
+/run/
+/logs/
+
+# Ignorar archivos temporales
+*.swp
+*.swo
+*~
+
+# Ignorar archivos de proyectos específicos
+.DS_Store
+*.orig
